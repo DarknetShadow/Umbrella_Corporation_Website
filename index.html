@@ -54,75 +54,42 @@
       </video>
 
       
-      <audio id="audioPlayer" autoplay loop class="audio">
-        <source src="Resident.mp4" type="audio/mpeg">
+      <audio id="audioPlayer" autoplay class="audio">
+        <source src="Resident.mp3" type="audio/mpeg">
       </audio>
-
-      <script>
-        const audioPlayer = document.getElementById("audioPlayer");
-        document.body.click();
-        document.addEventListener("click", function() {
-        // Phát khi người dùng click vào trang web
-        audioPlayer.play();
-        });
-
-        // Phát lại
-        audioPlayer.addEventListener("ended", function() {
-          audioPlayer.play();
-        });
-
-
-        window.addEventListener('load', function() {
-        // Lấy phần tử body của trang web
-        var bodyElement = document.body;
-        // Tạo sự kiện click
-        var clickEvent = new MouseEvent('click', {
-          view: window,
-          bubbles: true,
-          cancelable: true
-        });
-  
-        // Xác định tọa độ của vùng trống (ở đây là vị trí (100, 200))
-        var x = 300;
-        var y = 400;
-  
-        // Kích hoạt sự kiện click tại tọa độ đã xác định
-        bodyElement.dispatchEvent(new MouseEvent('click', {clientX: x, clientY: y}));
-        });
-
-      </script>
-
 
     </div>
 
   </section>
   <!-- End Footer -->
 
+   <!-- End Footer -->
+
    <section id="services">
     <div class="services container">
       <div class="service-top">
         <h1 class="section-title">Serv<span>i</span>ces</h1>
-        <p>We provide a wide range of financial services to individual and corporate clients. Here, you can open a deposit account using credit cards, transfer currencies, and manage your personal finances online. Explore our website for more details about our services and how we can help you manage your finances in a smart and convenient way.</p>
+        <p style="font-size: 18px;">We provide a wide range of financial services to individual and corporate clients. Here, you can open a deposit account using credit cards, transfer currencies, and manage your personal finances online. Explore our website for more details about our services and how we can help you manage your finances in a smart and convenient way.</p>
       </div>
       <div class="service-bottom">
         <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-          <h2>Transfers and Payments</h2>
-          <p>Banks provide money transfer services so that customers can transfer money elsewhere, as well as pay bills and other spending</p>
+          <div class="icon"><img src="./image/BioHazard.jpg" /></div>
+          <h2>Umbrella Security</h2>
+          <p>The Umbrella Security Service was a security force under the control of Umbrella. It was one of several paramilitary organisations used by the company, including the Umbrella Biohazard.</p>
         </div>
         <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-          <h2>Online banking</h2>
-          <p>The bank allows customers to access their accounts, pay bills, transfer money and perform other transactions through the Internet</p>
+          <div class="icon"><img src="./image/BioHazard.jpg" /></div>
+          <h2>Bio-Weapons Division</h2>
+          <p>This was the t-Virus Project, a weaponised Progenitor variety to be sold to armies. Unable to create a t-Virus strain projected to kill 100% of infected, research conducted by Dr. William Birkin at the Arklay Laboratory created a new strain that would instead turn humans into mutants who would infect or kill others, people later dubbed "Zombies".</p>
         </div>
         <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-          <h2>Credit and debit cards</h2>
+          <div class="icon"><img src="./image/BioHazard.jpg" /></div>
+          <h2>Biotechnology</h2>
           <p>Credit cards allow payments over time with rewards, while debit cards provide direct access to funds from a bank account for purchases</p>
         </div>
         <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-          <h2>Financial management</h2>
+          <div class="icon"><img src="./image/BioHazard.jpg" /></div>
+          <h2>medical equipment</h2>
           <p>The bank provides financial management and consulting services to help customers manage and invest their money efficiently</p>
         </div>
       </div>
@@ -130,13 +97,158 @@
   </section>
   <!-- End Service Section -->
 
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Projects</h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Adravil</h1>
+            <h2>Analgesic</h2>
+            <p>As a pain reliever inspired by the product Advil</p>
+          </div>
+          <div class="project-img">
+            <img src="./image/Project1.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Tyrant Virus</h1>
+            <h2>Virus - T</h2>
+            <p>The t-Virus (also known as the Clay virus ε-strain and the tyrant virus) is a mutagenic virus created by the Umbrella Corporation. It was derived from the Progenitor virus and designed to take advantage of its mutagenic properties for the development of a new form of biological weapon known as "B.O.W." (Bio Organic Weapon), a living creature genetically modified for use as a killing machine.</p>
+          </div>
+          <div class="project-img">
+            <img src="./image/Project2.jpg" alt="img" style="width: 65%;height: auto; object-fit: cover; margin-left: 100px;">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 3</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./image/Project3.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 4</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./image/Project4.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 5</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./image/Project5.jpg" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./image/umbrella_coporation.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2 style="font-size: 25px;">Umbrella Corporation</h2>
+        <p>An umbrella company is a company that employs agency contractors who work on temporary contract assignments, 
+          usually through a recruitment agency in the United Kingdom. Recruitment agencies prefer to issue contracts to a limited company as the agency liability would be reduced. It issues invoices to the recruitment agency (or client) and, when payment of the invoice is made, will typically pay the contractor through PAYE with the added benefit of offsetting some of the income through 
+          claiming expenses such as travel, meals, and accommodation.</p>
+        <a href="#" class="download_resume">Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+1 234 123 1234</h2>
+            <h2>+1 234 123 1234</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>ntbank@gmail.com</h2>
+            <h2>@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Fatikchhari, Chittagong, Bangladesh</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>Umbrella </span>Corporation <span></span></h1>
+      </div>
+      <h2>Your Complete Web Solution</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2023 DarknetShadow. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
   
+</body>
+</html>
   <script src="./app.js"></script>
 </form>
-  <script>
-    var x = document.getElementById("myAudio"); 
-    x.autoplay = true;
-  </script>
 </body>
-
 </html>
